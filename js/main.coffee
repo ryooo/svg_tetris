@@ -134,8 +134,6 @@ class Block
 
 
 map = new Map(0, 0, 10, 20)
-next = new Map(300, 0, 5, 5)
-next.render()
 
 id = setInterval(->
   if map.currentBlock == null

@@ -1,5 +1,5 @@
 (function() {
-  var Block, CELL, CELL_BK, CELL_KEEP, Map, el, id, map, next, r, sc;
+  var Block, CELL, CELL_BK, CELL_KEEP, Map, el, id, map, r, sc;
 
   el = document.getElementById('mainsvg');
 
@@ -212,10 +212,6 @@
   })();
 
   map = new Map(0, 0, 10, 20);
-
-  next = new Map(300, 0, 5, 5);
-
-  next.render();
 
   id = setInterval(function() {
     var block;
